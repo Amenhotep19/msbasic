@@ -1,5 +1,5 @@
 ; configuration
-CONFIG_10A := 1
+CONFIG_2A := 1
 
 CONFIG_DATAFLG := 1
 CONFIG_NULL := 1
@@ -24,14 +24,14 @@ WIDTH			:= 72
 WIDTH2			:= 56
 
 ; memory layout
-RAMSTART2		:= $0300
+RAMSTART2		:= $0400
 
 ; magic memory locations
-L0200           := $0200
+;L0200           := $0200
 
 ; monitor functions
-MONRDKEY        := $FFEB
-MONCOUT         := $FFEE
-MONISCNTC       := $FFF1
-LOAD            := $FFF4
-SAVE            := $FFF7
+MONRDKEY        := $FF03
+MONCOUT         := $FF09
+;MONISCNTC       := $FFF1
+;LOAD            := $FFF4
+;SAVE            := $FFF7

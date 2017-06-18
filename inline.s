@@ -60,6 +60,12 @@ INLINAIM:
     .endif
         cmp     #$0D
         beq     L2453
+    .ifndef CONFIG_NO_INPUTBUFFER_ZP
+       .ifdef OSI
+        cmp     #$08
+        beq     L2420
+       .endif
+    .endif
     .ifndef CONFIG_NO_LINE_EDITING
         cmp     #$20
       .ifdef AIM65
