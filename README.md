@@ -1,3 +1,7 @@
+This is my branch of the MS BASIC source for 6502.
+<p>
+With changes to build a version for the RC2014 using the OSI config.
+
 # Microsoft BASIC for 6502
 
 This is a single integrated assembly source tree that can generate nine different versions of Microsoft BASIC for 6502.
