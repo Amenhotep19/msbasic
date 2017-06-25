@@ -5,12 +5,15 @@ With changes to build a version for the RC2014 using the OSI configuration.
 There's some additional work done:
 <br>
 - Support CTRL-C
+<br>
 - Get rid of LOAD/SAVE for now
+<br>
 - Clear COLD and WARM start entry points
+<br>
 - Currently assumes that we start at $5000 which is in RAM. You want to specify a RAM top of 8192...!
-
+<p>
 <hr>
-
+<p>
 # Microsoft BASIC for 6502
 
 This is a single integrated assembly source tree that can generate nine different versions of Microsoft BASIC for 6502.
