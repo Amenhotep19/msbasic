@@ -1,6 +1,15 @@
 This is my branch of the MS BASIC source for 6502.
 <p>
-With changes to build a version for the RC2014 using the OSI config.
+With changes to build a version for the RC2014 using the OSI configuration.
+<p>
+There's some additional work done:
+<br>
+- Support CTRL-C
+- Get rid of LOAD/SAVE for now
+- Clear COLD and WARM start entry points
+- Currently assumes that we start at $5000 which is in RAM. You want to specify a RAM top of 8192...!
+
+<hr>
 
 # Microsoft BASIC for 6502
 

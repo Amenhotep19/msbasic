@@ -1,6 +1,7 @@
 .segment "CODE"
 ISCNTC:
-        jmp     MONISCNTC
+;        jmp     MONISCNTC
+        jsr     MONISCNTC
         nop
         nop
         nop
