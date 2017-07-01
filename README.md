@@ -12,6 +12,8 @@ There's some additional work done:
 <br>
 - Currently assumes that we start at $5000 which is in RAM. You want to specify a RAM top of 8192...!
 <p>
+osi.hex : Intel Hex file of BASIC binary. Loads and runs at $5000
+<p>
 <hr>
 <p>
 # Microsoft BASIC for 6502
